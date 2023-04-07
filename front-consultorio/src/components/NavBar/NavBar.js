@@ -21,7 +21,7 @@ function NavBar() {
       <div class="container">
   <div class="row">
     <div class="col-md my-2">
-      Nosotros
+    Nosotros
     </div>
     <div class="col-md my-2">
       Medicos
