@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 function NavBar() {
   return (
     <>
-      <Nav className="justify-content-center" activeKey="/home">
+      {/* <Nav className="justify-content-center" activeKey="/home">
         <Nav.Item>
           <Nav.Link href="/home">Home</Nav.Link>
         </Nav.Item>
@@ -17,7 +17,20 @@ function NavBar() {
           <Nav.Link eventKey="link-3">Sucursales</Nav.Link>
         </Nav.Item>
       </Nav>
-      <hr/>
+      <hr/> */}
+      <div class="container">
+  <div class="row">
+    <div class="col-md my-2">
+      Nosotros
+    </div>
+    <div class="col-md my-2">
+      Medicos
+    </div>
+    <div class="col-md my-2">
+      Servicios
+    </div>
+  </div>
+</div>
       </>
       )
   }
