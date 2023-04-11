@@ -1,8 +1,11 @@
+
+
 import React, { useState } from 'react';
 import {
+  
   MDBNavbar,
-  MDBContainer,
   MDBIcon,
+  MDBContainer,
   MDBNavbarNav,
   MDBNavbarItem,
   MDBNavbarLink,
@@ -15,12 +18,14 @@ import {
 } from 'mdb-react-ui-kit';
 
 export default function NavBarDos() {
+
   const [showNavCentred, setShowNavCentred] = useState(false);
 
   return (
-    <MDBNavbar expand='lg' light bgColor='light'>
-      <MDBContainer fluid>
-        <MDBNavbarToggler
+    <>
+      <MDBNavbar light bgColor='light'>
+        <MDBContainer fluid>
+          <MDBNavbarToggler
           type='button'
           data-target='#navbarCenteredExample'
           aria-controls='navbarCenteredExample'
@@ -61,7 +66,8 @@ export default function NavBarDos() {
             </MDBNavbarItem>
           </MDBNavbarNav>
         </MDBCollapse>
-      </MDBContainer>
-    </MDBNavbar>
+        </MDBContainer>
+      </MDBNavbar>
+    </>
   );
 }

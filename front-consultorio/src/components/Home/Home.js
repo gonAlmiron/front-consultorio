@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
   MDBBtn
 } from 'mdb-react-ui-kit';
+import NavBarDos from '../NavBar/NavBarDos'
 
 export default function Home() {
-  const [showBasic, setShowBasic] = useState(false);
 
   return (
     <header>
-
+        <NavBarDos/>
       <div
         className='p-5 text-center bg-image'
         style={{ backgroundImage: "url('https://i.postimg.cc/wj4DPM2k/foto123.jpg')", height: '500px' }}
