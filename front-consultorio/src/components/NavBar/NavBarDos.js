@@ -1,8 +1,5 @@
-
-
 import React, { useState } from 'react';
 import {
-  
   MDBNavbar,
   MDBIcon,
   MDBContainer,
@@ -36,7 +33,9 @@ export default function NavBarDos() {
           <MDBIcon icon='bars' fas />
         </MDBNavbarToggler>
 
-        <MDBCollapse navbar show={showNavCentred} center id='navbarCenteredExample'>
+
+
+        <MDBCollapse navbar show={showNavCentred} id='navbarCenteredExample'>
           <MDBNavbarNav fullWidth={false} className='mb-2 mb-lg-0'>
             <MDBNavbarItem>
               <MDBNavbarLink active aria-current='page' href='#'>

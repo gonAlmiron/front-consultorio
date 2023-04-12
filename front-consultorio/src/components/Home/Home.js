@@ -2,7 +2,7 @@ import React from 'react';
 import {
   MDBBtn
 } from 'mdb-react-ui-kit';
-import NavBarDos from '../NavBar/NavBarDos'
+import NavBarDos from '../NavBar/NavBarDos';
 
 export default function Home() {
 
